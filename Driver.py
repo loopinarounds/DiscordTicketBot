@@ -121,20 +121,20 @@ async def on_ready():
                       f'can you please provide your:\n**Business/Company Name**\n**Business/Company Email**\n' \
                       f'**Respective order numbers you wish to be invoiced for**\n\n Thankyou! A member of staff will ' \
                       f'be with you shortly. '
-            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Category ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Subs":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n To help us investigate, please provide your:\n **Email ' \
                       f'Address**\n\n Thankyou! A member of staff will be with you shortly. '
-            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Category ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "ISP":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n In order to help us investigate, please provide your:\n ' \
                       f'**Email Address**\n **Related Order Numbers**\n\n Thankyou! A member of staff will be with ' \
                       f'you shortly. '
-            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Category ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Help":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
@@ -142,13 +142,13 @@ async def on_ready():
                       f'If you are claiming a giveaway win, please provide:\n **The Discord Link to the winning ' \
                       f'message** \n\n ' \
                       f'Thankyou! A member of staff will be with you shortly.'
-            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Category ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Data Issues":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n' \
                       f'Thankyou! A member of staff will be with you shortly.'
-            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Category ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
 
 

@@ -91,7 +91,7 @@ async def on_ready():
     confirm_ids_no = []
 
     tick_num = 1
-    channel = client.get_channel(990293881453158462)
+    channel = client.get_channel("Ticket Channel ID Here")
 
     await text_channel_checker()
     await channel.send(embed=embed_opener, components=[
@@ -121,20 +121,20 @@ async def on_ready():
                       f'can you please provide your:\n**Business/Company Name**\n**Business/Company Email**\n' \
                       f'**Respective order numbers you wish to be invoiced for**\n\n Thankyou! A member of staff will ' \
                       f'be with you shortly. '
-            await channel_opener(990297093056905216, guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Subs":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n To help us investigate, please provide your:\n **Email ' \
                       f'Address**\n\n Thankyou! A member of staff will be with you shortly. '
-            await channel_opener(990297646293979206, guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "ISP":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n In order to help us investigate, please provide your:\n ' \
                       f'**Email Address**\n **Related Order Numbers**\n\n Thankyou! A member of staff will be with ' \
                       f'you shortly. '
-            await channel_opener(990297747531911168, guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Help":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
@@ -142,13 +142,13 @@ async def on_ready():
                       f'If you are claiming a giveaway win, please provide:\n **The Discord Link to the winning ' \
                       f'message** \n\n ' \
                       f'Thankyou! A member of staff will be with you shortly.'
-            await channel_opener(990297842218307634, guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
         elif interaction.custom_id == "Data Issues":
             message = f'Welcome {user_input.mention}. Please help us get the exact help you need by describing what ' \
                       f'you need or what your problem is.\n\n' \
                       f'Thankyou! A member of staff will be with you shortly.'
-            await channel_opener(990297458347229204, guild, interaction, user_channel_name, user_input, message,tick_num)
+            await channel_opener("Ticket Channel ID Here", guild, interaction, user_channel_name, user_input, message,tick_num)
             tick_num += 1
 
 
@@ -177,7 +177,7 @@ async def on_ready():
                     file.write(ticket_list[i])
 
             file = discord.File(ticketfile)
-            ticket_channel = client.get_channel(992015624123453540)
+            ticket_channel = client.get_channel("Ticket Channel ID Here")
 
             await ticket_channel.send(file=file)
             print(text_channel_list)
@@ -194,10 +194,10 @@ async def on_ready():
             split_custom_id = int(str(interaction.custom_id).split('_')[2])
             print(split_custom_id)
             new_channel = client.get_channel(split_custom_id)
-            msg = await new_channel.history().get(author__id=990295952642429020)
+            msg = await new_channel.history().get(author__id="Ticket Channel ID Here)
             await msg.delete()
 
         print(confirm_ids_yes)
         print(confirm_ids_no)
 
-client.run("OTkwMjk1OTUyNjQyNDI5MDIw.GfrWKc.o3jbb2OZRWzkAu9vK5SN3zEzrm_Z29PdetCZTg")
+client.run("Enter DiscordBot OAuth Here")

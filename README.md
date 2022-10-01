@@ -8,3 +8,12 @@ GUIDE TO USE:
 
 4. Run the program. You are recommended to host this on a low power server. The bot should never crash unless there is a server side issue. In case of a crash, reset the program, it will post a new initial message to the discord channel and all exisiting ticket channels will still interact with the bot correctly.
 
+
+
+WHAT DOES THE BOT DO?
+
+When activated, the bot will send an embedded message to the discord channel of your choice. This message will have 5 buttons attached. These buttons, as mentioned above in the guide, can be set to any category you need for your customer services. 
+
+When a button is pressed by a user, it will open a channel that manually adds the user and all staff members of the discord server. The bot will post a message to the channel stating what information the user needs to provide in order to have their query solved as quickly as possible.  The staff are then able to help the user and close the ticket.
+
+When the ticket channel is closed, a full .txt transcript of the messages in the ticket channel will be sent to a staff-only ticket transcipt channel, as well as into the DMs of the user who opened the channel initially. Incase of any accidental closing, the bot will prompt the user if they are sure they would like to close the channel. They may cancel the closing process if they wish by pressing the prompted cancel button.

@@ -1,1 +1,3 @@
-# DiscordTicketBot
+GUIDE TO USE:
+
+

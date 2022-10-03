@@ -18,7 +18,7 @@ When a button is pressed by a user, it will open a channel that manually adds th
 
 When the ticket channel is closed, a full .txt transcript of the messages in the ticket channel will be sent to a staff-only ticket transcipt channel, as well as into the DMs of the user who opened the channel initially. Incase of any accidental closing, the bot will prompt the user if they are sure they would like to close the channel. They may cancel the closing process if they wish by pressing the prompted cancel button.
 
-## Example
+## Initial Message Example
 
 
 
@@ -26,7 +26,13 @@ When the ticket channel is closed, a full .txt transcript of the messages in the
 
 The above image shows the message sent to the channel when the bot is activated. The buttons, when pressed, open a ticket channel in the corresponding categories that you have chosen.
 
+## Ticket Transcript Example
+
+
 [Ticket_content_for__ryan-7777.txt](https://github.com/loopinarounds/DiscordTicketBot/files/9700186/Ticket_content_for__ryan-7777.txt)
+
+Above is an example of the txt file produced by the bot, that is sent to a specified staff channel once a ticket has been closed. This ensures that all staff can be aware of how a ticket was handled in order to act accordingly in the future.
+
 
 
 

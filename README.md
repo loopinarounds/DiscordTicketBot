@@ -19,5 +19,4 @@ When a button is pressed by a user, it will open a channel that manually adds th
 When the ticket channel is closed, a full .txt transcript of the messages in the ticket channel will be sent to a staff-only ticket transcipt channel, as well as into the DMs of the user who opened the channel initially. Incase of any accidental closing, the bot will prompt the user if they are sure they would like to close the channel. They may cancel the closing process if they wish by pressing the prompted cancel button.
 
 ##Example
-
-![Embed](./Users/brad/Desktop/ticketbot.png)
+<img width="740" alt="ticketbot" src="https://user-images.githubusercontent.com/86264161/193656364-0a62731a-0da0-4b79-80a3-ff9938a119b6.png">

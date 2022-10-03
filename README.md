@@ -26,4 +26,7 @@ When the ticket channel is closed, a full .txt transcript of the messages in the
 
 The above image shows the message sent to the channel when the bot is activated. The buttons, when pressed, open a ticket channel in the corresponding categories that you have chosen.
 
+[Ticket_content_for__ryan-7777.txt](https://github.com/loopinarounds/DiscordTicketBot/files/9700186/Ticket_content_for__ryan-7777.txt)
+
+
 

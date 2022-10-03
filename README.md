@@ -1,4 +1,4 @@
-##GUIDE TO USE:
+## GUIDE TO USE:
 
 1. ```client.run("Enter DiscordBot OAuth Here")``` You must first host your own Discord Bot and fetch the OAuth Code, enter this at the bottom line of the code file (annotated in file). Guide on how to create your own Discord Bot here: https://discordpy.readthedocs.io/en/stable/discord.html
 
@@ -10,7 +10,7 @@
 
 
 
-##WHAT DOES THE BOT DO?
+## WHAT DOES THE BOT DO?
 
 When activated, the bot will send an embedded message to the discord channel of your choice. This message will have 5 buttons attached. These buttons, as mentioned above in the guide, can be set to any category you need for your customer services. 
 

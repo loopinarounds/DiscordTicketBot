@@ -1,3 +1,9 @@
+# Discord Ticket Bot
+
+A customer service/ticket bot for use in company discord servers. Written 100% in Python using a modified Discord Package
+
+
+
 ## GUIDE TO USE:
 
 1. ```client.run("Enter DiscordBot OAuth Here")``` You must first host your own Discord Bot and fetch the OAuth Code, enter this at the bottom line of the code file (annotated in file). Guide on how to create your own Discord Bot here: https://discordpy.readthedocs.io/en/stable/discord.html

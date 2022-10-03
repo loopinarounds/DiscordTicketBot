@@ -1,6 +1,6 @@
 # Discord Ticket Bot
 
-A customer service/ticket bot for use in company discord servers. Written 100% in Python using a modified Discord Package
+A customer service/ticket bot for use in company discord servers. Written 100% in Python using a modified Discord Package.
 
 
 

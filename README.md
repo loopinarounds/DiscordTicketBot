@@ -20,4 +20,4 @@ When the ticket channel is closed, a full .txt transcript of the messages in the
 
 ##Example
 
-![Embed](/Users/brad/Desktop/Screenshot 2022-10-03 at 14.47.29.png)
+![Embed](./Users/brad/Desktop/Screenshot 2022-10-03 at 14.47.29.png)
